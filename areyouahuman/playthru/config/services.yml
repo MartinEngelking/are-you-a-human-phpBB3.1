@@ -1,0 +1,8 @@
+services:
+    areyouahuman.playthru.captcha:
+        class: areyouahuman\playthru\captcha\plugins\playthru
+        scope: prototype
+        calls:
+            - [set_name, [areyouahuman.playthru.captcha]]
+        tags:
+            - { name: captcha.plugins }

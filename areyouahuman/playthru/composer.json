@@ -1,0 +1,26 @@
+{
+    "name": "areyouahuman/playthru",
+    "type": "phpbb-extension",
+    "description": "Stop spam and bots with PlayThru, the fun, free CAPTCHA alternative! PlayThru is the simple game-based CAPTCHA replacement that people love. It's easy to install and completely free. This extension works effortlessly on guest posts and registration forms. CAPTCHA-related dropoff is five times higher on mobile than on desktop, and the PlayThru spam blocker is optimized for touch, so it works beautifully on mobile devices. Usage: Please navigate to the \"General\" tab at the top of the Admin Control Panel and then click on \"Spambot countermeasures\" on the left-hand menu to configure Captcha plugins. Select AreYouAHuman from the drop-down list and click \"Submit.\"",
+    "homepage": "http://www.areyouahuman.com/",
+    "version": "2.0.0b",
+    "time": "2014-12-14",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Martin Engelking",
+            "email": "support@areyouahuman.com",
+            "homepage": "http://www.areyouahuman.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "AreYouAHuman CAPTCHA replacement",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.*"
+        }
+    }
+}
